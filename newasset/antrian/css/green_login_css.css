@@ -1,0 +1,19 @@
+body{
+	background: url('../img/green.jpg') ;
+}
+
+#semuanya{
+	background:#8DC63F;
+}
+#logobawah{
+	background:#46A101;	
+}
+#judulnya{
+	color:#ffffff;
+}
+.btn-primary{
+	background:#3AB304;
+}
+.btn-primary:hover{
+	background:#46A101;
+}

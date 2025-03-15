@@ -1,0 +1,19 @@
+TABEL tb_register_filterdata
+	-> type_filter 		: TAMBAH, KURANG - maksudnya adalah untuk memfilter data yang masuk apakah itu pengurangan dari paket ataupun penambahan pemeriksaan baru yang punya harga karena gw simpen dalam 1 tabel men ra kakehen tabel
+	-> darikonsul		: maksudnya adalah apakah ini biaya tambahan konsul apa bukan, jadi dibagi tetap tambahan tapi ada yang nambah pas pendaftaran ada yang nambah pas konsul
+	
+	
+TABEL tb_register 
+	->urut_file			: untuk dapat angka terakhir dari nomor file, karena susah kalau ambil dari no_filemcu, ini dibuat pertagihan ya...
+	
+	
+FILTER
+	- PASIEN BELUM DIFILTER KALAU SUDAH REGISTRASI PADA HARI YANG SAMA
+	- YANG TOTAL PASIENNYA BELUM DI FILTER DIPENDAFTARAN MAUPUN DI 
+	
+	
+ORDER DATA
+	- ORDER DIPEMERIKSAAN FUNGSINYA UNTUK MENGURUTKAN ANTAR PEMERIKSAAN DI POLI DAN BERLAKU GLOBAL YA TIF INGET YA
+	- ORDER DI DETAIL PEMERIKSAAN UNTUK MENGURUTKAN DI TINDAKAN SAJA PERSATU TINDAKAN YAAAA GA SEMUA
+	
+	HISTORY PASIEN PERDETAIL DAN PER PEMERIKSAAN

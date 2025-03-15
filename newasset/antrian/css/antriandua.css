@@ -1,0 +1,450 @@
+body {
+    font: 13px/1.4 'Helvetica Neue', 'Helvetica','Arial', sans-serif;
+    background: url('../img/ab.jpg') ;
+}
+a.balloon {
+	outline:none;
+	text-decoration:none;
+	color: #00F; 
+}
+
+a.balloon strong {
+	line-height:30px;
+	font-family: Candara, Tahoma, Geneva, sans-serif; 
+	font-weight: bold;
+}
+
+a.balloon:hover {
+	text-decoration:none;
+	text-outline:none;
+	color: #F06;
+} 
+
+
+a.balloon:hover img {
+	text-decoration:none;
+	text-outline:none;
+	border: none;
+} 
+
+a.balloon img {
+	border: none;
+} 
+
+a.balloon div {
+    z-index: 9999999999;
+	display: none; 
+	padding: 10px;
+    margin-top: -150px; 
+	margin-left: 20px;
+    min-width: 600px; 
+	line-height: 16px;
+	border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	font: 13px/1.4 'Helvetica Neue', 'Helvetica','Arial', sans-serif;
+}
+
+a.balloon:hover div {
+    display: inline; 
+	position: absolute; 
+	color: #111;
+    border: 1px solid #DCA; 
+	background: #fff;
+}
+
+a.balloon:hover li{
+	list-style:none;
+}
+
+.arrow{
+	z-index: 20;
+	position: absolute;
+	top: 80px;
+	margin:-5px;
+	border: 0;
+	left: -12px;
+	background-color: transparent;
+}
+
+h1 {
+    border-bottom: 1px solid #d9d9d9;
+}
+h2{
+  position: relative;;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+h2:before{
+  content: '\2192';
+  position: absolute;
+  left: -20px;
+}
+a {
+    color: #be2221;
+    text-decoration: none;
+}
+
+.callback,
+.simple {
+  font-size: 20px;
+  background: #27ae60;
+  padding: 0.5em 0.7em;
+  color: #ecf0f1;
+  -webkit-transition: background 0.5s ease-out;
+  transition: background 0.5s ease-out;
+}
+.callback{
+  cursor: pointer;
+}
+.ended {
+  background: #fff;
+}
+.styled{
+}
+.styled div {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 1;
+  text-align: right;
+}
+/* IE7 inline-block hack */
+*+html .styled div{
+  display: inline;
+  zoom: 1;
+}
+.styled div:first-child {
+  margin-left: 0;
+}
+.styled div span {
+  display: block;
+  padding-top: -10px;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+/* Set the fixed height of the footer here */
+
+.konten_dalam {
+	float: right;
+	width: 100%;
+	margin:3% 0% 2% 0%;
+	padding: 0 0 0 0;
+	border-radius:5px 5px 5px 5px;
+	background: #fffff;
+	
+}
+.konten_dalam ul li {
+	width: 100px;
+	margin:50px 35px 0px 0pt;
+	display: inline-block;
+	vertical-align:top;
+	background: #eee;
+	background: none repeat scroll 0% 0% transparent;
+	text-align:center;
+	
+}
+.konten_dalam ul li a {
+	border-radius: 5px 5px 5px 5px;
+	width:100%;
+	float:left;
+	margin:-15px 20px -15px -15px;
+	display: block;
+	vertical-align:top;
+	padding:5px;
+	color:#eaeaea;
+	box-shadow: 0pt 0pt 15px #dddddd inset;
+	text-decoration:none;
+	border:1px dotted rgb(241, 241, 241);
+	text-align:center;
+	
+}
+.konten_dalam ul li a:hover{
+	border-radius: 5px 5px 5px 5px;
+	width:100%;
+	margin:-20px 20px -15px -15px;
+	display: block;
+	vertical-align:top;
+	padding:5px;
+	box-shadow: 1pt 0pt 15px #fff inset;
+	text-decoration:none;
+	border:1px solid rgb(241, 241, 241);
+	text-align:center;
+	-o-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -khtml-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+	
+}
+
+#semuanya{
+	border-radius: 5px 5px 5px 5px;
+	display: block;
+	vertical-align:top;
+	text-decoration:none;
+	background:#3389D1;
+	padding: 10px 0 0 0;
+	border:1px solid #cccccc;
+	text-align:center;
+	
+}
+
+#logobawah{
+	border-radius: 5px 5px 5px 5px;
+	display: block;
+	vertical-align:top;
+	padding:5px;
+	text-decoration:none;
+	background:#2370C6;
+	border-top:1px dotted rgb(241, 241, 241);
+	text-align:center;
+	
+}
+.konten_dalam ul li a img{
+	padding:5px;
+	
+}
+
+#header {
+  width:100%;
+  height:80px;
+  top:0;
+  font-size:12px;
+  background:#3389D1;
+}
+.head {
+	float: left;
+	font-weight:bold;
+	margin:0px 3%;
+
+
+}
+#alert {
+	margin: 5px 0 10px 0;
+	padding:10px 10px 10px 30px;
+	border-radius:5px;
+	background:#eeffff;
+	cursor:pointer;
+	font-weight:normal;
+	color:#009900;
+	font-size:13px;
+	border:1px solid rgb(180, 219, 232);
+	}
+.hdh1{
+	font-weight:normal;
+	float:left;
+	font-size: 20px;
+	color:#eee;
+	margin:35px 0 0 0;
+	text-shadow:1px 1px 0pt rgb(85, 85, 85);
+}
+
+#judulnya{
+	font-weight:normal;
+	font-size: 20px;
+	color:#eee;
+	font-family:tahoma,arial;
+	margin:35px 0 0 0;
+	text-shadow:1px 1px 0pt rgb(85, 85, 85);
+}
+#judulmodallogin{
+	font-weight:normal;
+	font-size: 20px;
+	color:#333;
+}
+#subnya{
+	font-weight:normal;
+	font-size: 14px;
+	color:#eee;
+	font-family:tahoma,arial;
+	margin:35px 0 0 0;
+	text-shadow:1px 1px 0pt rgb(85, 85, 85);
+}
+.hdh1 span{
+	font-weight:normal;
+	font-size: 10px;
+	color:#ebebeb;
+	text-shadow:1px 1px 0pt rgb(85, 85, 85);
+}
+.hdh2{
+	font-weight:normal;
+	font-size: 14px;
+	float:left;
+	color:#F3CC08;
+	margin:15px 0 0 0;
+}
+#breadcumb{
+  width:100%;
+  padding:6px;
+  font-size:12px;
+  background: #3389D1;
+  }
+#site-title {
+	font-size:20px;
+	font-weight:normal;
+	color:#ffff;
+	margin:25px 0 10px 0;
+	padding:0px 0 5px 40px;
+}
+.bawahheader{
+  padding: 10px 0 0 0;
+  font-size:12px;
+  bottom:0;
+  margin:130px 0 0 0;
+}
+.atasfooter {
+  padding: 10px 0 0 0;
+  font-size:12px;
+  bottom:0;
+  margin:10px 0 0 0;
+}
+#footer {
+  padding: 8px 0 0 0;
+  font-size:11px;
+  bottom:0;
+  width:100%;
+  display: block;
+position: fixed;
+bottom: 0;
+  background-color: #3389D1;
+}
+/*antrian_________________________________________________*/
+#antrian_atas{
+		
+	width:99%;
+	height: 400px;
+	border:solid 1px #134A9D;
+	background:linear-gradient(to bottom, #134A9D 0px, #105BB8 100%) repeat-x scroll 0% 0% transparent;
+    border-radius: 10px;
+	box-shadow:10px 10px 10px #040D4F inset;
+	margin: 0 0 10px 0;
+}
+.antrian_dalam_atas{
+	width:100%;
+	height: 110px;
+	background: url('../img/headblue.jpg');
+	border: solid 1px #177BC9;
+	text-align:center;
+}
+.antrian_dalam_atas span{
+	color:#eeffff;
+	font-weight:bold;
+	font-size:270px;
+}
+.antrian_dalam_atas p{
+	margin:-60px 0 0 0;
+	color:#E2F774;
+	font-weight:bold;
+	font-size:30px;
+}
+.antrian_dalam_atas i{
+	color:#eeffff;
+	font-style:normal;
+	font-weight:bold;
+	font-size:16px;
+}
+#antrian_bawah{
+	width:100%;
+	text-align:center;
+	height:540px;
+	border-top:solid 5px #ffffff;
+	 border-radius: 10px;
+	background:linear-gradient(to bottom, #105BB8 0px, #040D4F 100%) repeat-x scroll 0% 0% transparent;
+	box-shadow:10px 10px 10px #040D4F inset;
+}
+.head_atas{
+	width:100%;
+	height:100px;
+	border-radius:10px 10px 0 0;
+	padding:0 0 10px 0;
+	border-bottom:solid 1px #177BC9;
+	background:linear-gradient(to bottom, #35AEDF 0px, #105BB8 100%) repeat-x scroll 0% 0% transparent;
+}
+.judul_atas{
+	font-size:45px;
+	text-align:center;
+	color:#ffffff;
+	margin:5px 0 0 0;
+	font-weight:bold;
+	text-shadow: -4px 3px 0 #3a50d9, -1px 2px 0 #0a0e27;
+}
+.judul_dalam{
+	font-size:100px;
+	text-align:center;
+	color:#ffffff;
+	margin:10px 0 20px 0;
+	padding:0px 0 0 0;
+	font-weight:bold;
+}
+.judul_bawah{
+	font-size:40px;
+	text-align:center;
+	color:#E2F774;
+	margin:7px 0 0 0;
+	padding:15px 0 0 0;
+	font-weight:bold;
+	text-shadow: -4px 3px 0 #3a50d9, -2px 2px 0 #0a0e27;
+}
+.antrian_dalam_bawah{
+	width:88%;
+	height: 135px;
+	margin:6%;
+	border:solid 1px #177BC9;
+	background: url('../img/bawah.jpg');
+	border-radius:5px;
+}
+.antrian_dalam_bawah span{
+	color:#eeffff;
+	font-weight:bold;
+	font-size:75px;
+}
+.antrian_dalam_bawah b{
+	color:#E2F774;
+	margin:-100px 0 0 10px;
+	font-weight:bold;
+	font-size:16px;
+}
+.antrian_dalam_bawah i{
+	color:#eeffff;
+	font-style:normal;
+	font-weight:bold;
+	font-size:16px;
+}
+.antrian_dalam_loket{
+	width:88%;
+	height: 40px;
+	margin: 0 6% 6% 6%;
+	border:solid 1px #177BC9;
+	background: #092F7D;
+	border-radius:5px 20px 20px 5px;
+}
+.antrian_dalam_loket span{
+	color:#BEAE00;
+	position:absolute;
+	margin:-47px 0 0 30px;
+	font-weight:bold;
+	font-size:35px;
+}
+.antrian_dalam_loket_aktif{
+	width:88%;
+	height: 40px;
+	margin: 0 6% 6% 6%;
+	border:solid 1px #177BC9;
+	background: #BEAE00;
+	border-radius:5px 20px 20px 5px;
+}
+.antrian_dalam_loket_aktif span{
+	color:#092F7D;
+	position:absolute;
+	margin:-47px 0 0 10px;
+	font-weight:bold;
+	font-size:35px;
+}

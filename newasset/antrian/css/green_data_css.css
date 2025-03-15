@@ -1,0 +1,51 @@
+body{
+	background:#FFFFFF;
+}
+#header {
+  background:#0A9A06;
+}
+.btn-info{
+	background:#7DCE41;
+}
+.btn-danger{
+	background:#7DCE41;
+}
+.btn-info:hover{
+	background:#46A101;
+}
+.btn-primary{
+	background:#7DCE41;
+}
+.btn-primary:hover{
+	background:#46A101;
+}
+.nav {
+	background:#62C41B;
+	border-radius:25px;
+}
+.alert-info{
+	background:#ffffee;
+}
+.navbar-inverse .navbar-inner {
+  background: url('../img/ijo.png');
+  border-color: #fff;
+}
+#site-title {
+	background:url("../img/pin_ijo.png") no-repeat scroll 7px -2px;
+}
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+  color: #ffffff;
+  background-color: #0A9A06;
+}
+.navbar .nav{
+        border-left: 1px solid #97D868;
+		}
+		.navbar .nav li{
+        border-right: 1px solid #97D868;
+		}
+#footer {
+  background-color: #ffffee;
+  border-top: solid 1px #9BDA6C;
+}
