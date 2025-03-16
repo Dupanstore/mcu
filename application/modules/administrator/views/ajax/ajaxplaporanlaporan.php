@@ -71,6 +71,7 @@
 				$judtengah = "";
 				$judbawah = "";
 			}
+			
 		?>
 		<input type="hidden" name="urilaporan" value="<?=@$this->u3?>">
 					<tr>
